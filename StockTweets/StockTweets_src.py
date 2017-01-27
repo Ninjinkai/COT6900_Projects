@@ -1,3 +1,7 @@
+import sys
+import twitter
+import pprint
+from twitter import *
 import matplotlib
 import matplotlib.pyplot as plt
 import csv
@@ -16,5 +20,21 @@ from sklearn.cross_validation import StratifiedKFold, cross_val_score, train_tes
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.learning_curve import learning_curve
 
-messages = pandas.read_csv('./data/msg-sent.csv', sep=',', quoting=csv.QUOTE_NONE, names=["message", "label"])
-print(messages.head())
+t = Twitter(
+    auth=OAuth(
+        '386563588-uGsNSg2T7lgC5awaeFy6mvoQict3yYY29OBFFqDA',
+        'qHudO6e3NwXKRtuR2yfCPvqTkqaIbeOlEUhUocJCBZe6G',
+        '2PKlDplAmZs5GrE4Nh6J0s1f0',
+        'BWMrI7zjCz0ez9H3ITikBfvxhiemmajoAxbyArxOBSTzAORn7w'
+               ),
+    retry=True
+)
+
+output_file = open("search_results.txt", mode='w')
+output_file.write(pprint.pformat(t.search.tweets(q="#AAPL")))
+output_file.close()
+
+output_file = open("search_results_text.txt", mode='w')
+for status in t.search.tweets(q="#AAPL")['statuses']:
+    output_file.write(pprint.pformat(status['text']))
+output_file.close()
