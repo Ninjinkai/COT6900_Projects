@@ -1,4 +1,4 @@
-from textblob.classifiers import NaiveBayesClassifier, DecisionTreeClassifier, NLTKClassifier
+from textblob.classifiers import DecisionTreeClassifier
 import pickle
 
 train = open('./data/msg-sent-short-no-quotes.csv', 'r')
@@ -22,3 +22,4 @@ test.close()
 
 dt_pickle_file = open('./pickles/dt_classifier.pickle', 'wb')
 pickle.dump(dt_classifier, dt_pickle_file)
+dt_pickle_file.close()
