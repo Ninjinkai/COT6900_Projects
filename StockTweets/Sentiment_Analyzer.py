@@ -1,6 +1,8 @@
+import pprint
 from textblob import Blobber
 from textblob.sentiments import NaiveBayesAnalyzer
-import pprint
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
 
 input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
 # input_csv = open('./data/msg-sent-new-no-quotes.csv', 'r')
@@ -8,6 +10,8 @@ input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
 print("CSV opened.")
 
 blob = Blobber(analyzer=NaiveBayesAnalyzer())
+
+vaderAnalyzer = SentimentIntensityAnalyzer()
 
 print("Analyzer created.")
 
@@ -26,6 +30,8 @@ for line in input_csv:
     tweet = line.split(',')[0]
     stated_sentiment = line.split(',')[1].strip()
     determined_sentiment = blob(tweet).sentiment
+
+    pprint.pprint(vaderAnalyzer.polarity_scores(tweet))
 
     results.append({'tweet': tweet, 'stated_sentiment': stated_sentiment, 'determined_sentiment': determined_sentiment})
 
