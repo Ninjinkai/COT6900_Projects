@@ -1,10 +1,14 @@
 import pprint
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+import pickle
 
-input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
+# input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
 # input_csv = open('./data/msg-sent-new-no-quotes.csv', 'r')
+input_csv = open('./data/BodySent-new.csv', 'r')
 
-output_csv = open('./data/vader-results.csv', 'w')
+# output_csv = open('./data/vader-results.csv', 'w')
+output_csv = open('./data/vader-results-BodySent-full.csv', 'w')
+
 output_csv.write(
     "tweet,stated_sentiment,vader_analysis_compound,vader_analysis_neg,vader_analysis_neu,vader_analysis_pos\n")
 
@@ -41,7 +45,11 @@ for line in input_csv:
                     'vader_analysis_pos': vader_analysis['pos']})
 
 print("Process finished.")
-pprint.pprint(results)
+# pprint.pprint(results)
+
+vader_pickle_file = open('./pickles/vader.pickle', 'wb')
+pickle.dump(results, vader_pickle_file)
+vader_pickle_file.close()
 
 input_csv.close()
 output_csv.close()

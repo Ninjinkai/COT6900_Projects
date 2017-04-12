@@ -1,11 +1,15 @@
 import pprint
 from textblob import Blobber
 from textblob.sentiments import NaiveBayesAnalyzer
+import pickle
 
-input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
+# input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
 # input_csv = open('./data/msg-sent-new-no-quotes.csv', 'r')
+input_csv = open('./data/BodySent-new.csv', 'r')
 
-output_csv = open('./data/NB-blobber-results.csv', 'w')
+# output_csv = open('./data/NB-blobber-results.csv', 'w')
+output_csv = open('./data/NB-blobber-results-BodySent-full.csv', 'w')
+
 output_csv.write("tweet,stated_sentiment,blob_NB_classification,blob_NB_p_pos,blob_NB_p_neg\n")
 
 print("CSVs opened.")
@@ -42,7 +46,11 @@ for line in input_csv:
                     'blob_NB_p_neg': blob_NB_p_neg})
 
 print("Process finished.")
-pprint.pprint(results)
+# pprint.pprint(results)
+
+blob_nb_pickle_file = open('./pickles/blob_nb.pickle', 'wb')
+pickle.dump(results, blob_nb_pickle_file)
+blob_nb_pickle_file.close()
 
 input_csv.close()
 output_csv.close()

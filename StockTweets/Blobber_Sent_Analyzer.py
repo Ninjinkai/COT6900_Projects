@@ -1,10 +1,14 @@
 import pprint
 from textblob import TextBlob
+import pickle
 
-input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
+# input_csv = open('./data/msg-sent-short-no-quotes.csv', 'r')
 # input_csv = open('./data/msg-sent-new-no-quotes.csv', 'r')
+input_csv = open('./data/BodySent-new.csv', 'r')
 
-output_csv = open('./data/def-blobber-results.csv', 'w')
+# output_csv = open('./data/def-blobber-results.csv', 'w')
+output_csv = open('./data/blobber-results-BodySent-full.csv', 'w')
+
 output_csv.write("tweet,stated_sentiment,blob_polarity,blob_subjectivity\n")
 
 print("CSVs opened.")
@@ -37,7 +41,11 @@ for line in input_csv:
                     'blob_subjectivity': blob_subjectivity})
 
 print("Process finished.")
-pprint.pprint(results)
+# pprint.pprint(results)
+
+blobber_pickle_file = open('./pickles/blobber.pickle', 'wb')
+pickle.dump(results, blobber_pickle_file)
+blobber_pickle_file.close()
 
 input_csv.close()
 output_csv.close()
