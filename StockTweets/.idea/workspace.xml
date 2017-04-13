@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115c5a5b-5e7c-432d-a592-c512eef6a63f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Analysis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BodySent_cleaner.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blobber_NB_Analysis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Blobber_Sent_Analysis.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vader_Analysis.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Analysis.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CSV_cleaning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/DT_Testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Decison_Tree_Classifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/NB_Testing.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Naive_Bayes_Classifier.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TextBlob_CSV_cleaner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TextBlob_tutorial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/blobber-results.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/def-blobber-results.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-01-short.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-01.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-new-no-quotes-header.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-new-no-quotes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-new.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-short-no-quotes-test.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent-short-no-quotes.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/msg-sent.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/vader-results.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pickles/dt_classifier.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pickles/nb_classifier.pickle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search_results.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/search_results_text.txt" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Blobber_NBAnalyzer.py" afterPath="$PROJECT_DIR$/Blobber_NB_Analyzer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blobber_NBAnalyzer.py" afterPath="$PROJECT_DIR$/Blobber_NBAnalyzer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blobber_Sent_Analyzer.py" afterPath="$PROJECT_DIR$/Blobber_Sent_Analyzer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vader_Analyzer.py" afterPath="$PROJECT_DIR$/Vader_Analyzer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,11 +44,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Blobber_NBAnalyzer.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+      <file leaf-file-name="Blobber_NB_Analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blobber_NB_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="50" column="45" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="45" />
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BodySent_cleaner.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BodySent_cleaner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blobber_Sent_Analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blobber_Sent_Analysis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -34,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Analysis.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Analysis.py">
+      <file leaf-file-name="Vader_Analysis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vader_Analysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="397">
+              <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -46,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NB_Testing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NB_Testing.py">
+      <file leaf-file-name="Blobber_NB_Analyzer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -59,7 +101,7 @@
       <file leaf-file-name="Blobber_Sent_Analyzer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Blobber_Sent_Analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="675">
               <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="45" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -71,11 +113,9 @@
       <file leaf-file-name="Vader_Analyzer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vader_Analyzer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="43" column="64" lean-forward="true" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -92,9 +132,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print &gt;&gt;</find>
+      <find>blob_sent_labels</find>
     </findStrings>
     <replaceStrings>
       <replace>result +=</replace>
+      <replace>vader_predictions</replace>
+      <replace>vader_labels</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -112,20 +155,25 @@
         <option value="$PROJECT_DIR$/NB_Testing.py" />
         <option value="$PROJECT_DIR$/DT_Testing.py" />
         <option value="$PROJECT_DIR$/Sentiment_Analyzer.py" />
-        <option value="$PROJECT_DIR$/Blobber_Analyzer.py" />
         <option value="$PROJECT_DIR$/CSV_cleaning.py" />
         <option value="$PROJECT_DIR$/BodySent_cleaner.py" />
         <option value="$PROJECT_DIR$/Blobber_NBAnalyzer.py" />
         <option value="$PROJECT_DIR$/Blobber_Sent_Analyzer.py" />
         <option value="$PROJECT_DIR$/Vader_Analyzer.py" />
         <option value="$PROJECT_DIR$/Analysis.py" />
+        <option value="$PROJECT_DIR$/Blobber_Analyzer.py" />
+        <option value="$PROJECT_DIR$/Blobber_Analysis.py" />
+        <option value="$PROJECT_DIR$/Blobber_NB_Analysis.py" />
+        <option value="$PROJECT_DIR$/Blobber_Sent_Analysis.py" />
+        <option value="$PROJECT_DIR$/Vader_Analysis.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="x" value="179" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1659" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,25 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Analysis">
-    <configuration default="false" name="Sentiment_Analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StockTweets" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blobber_NBAnalyzer.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Vader_Analysis">
     <configuration default="false" name="Vader_Analyzer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -235,24 +265,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="BodySent_cleaner" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="StockTweets" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BodySent_cleaner.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,7 +277,43 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="StockTweets" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blobber_NB_Analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Blobber_Sent_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StockTweets" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blobber_Sent_Analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Vader_Analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="StockTweets" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vader_Analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +416,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Sentiment_Analyzer" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Vader_Analyzer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Blobber_Sent_Analyzer" />
-      <item index="3" class="java.lang.String" itemvalue="Python.BodySent_cleaner" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Analysis" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Vader_Analyzer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Blobber_Sent_Analyzer" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Analysis" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Blobber_Sent_Analysis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Vader_Analysis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Analysis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Vader_Analyzer" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Blobber_Sent_Analyzer" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Sentiment_Analyzer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BodySent_cleaner" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Vader_Analysis" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Blobber_Sent_Analysis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Analysis" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Vader_Analyzer" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Blobber_Sent_Analyzer" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -421,12 +469,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="179" y="-1057" width="1659" height="1057" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26979" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21521336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6845426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44145077" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -439,7 +488,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -447,37 +495,17 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_Sent_Analyzer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="91" lean-forward="false" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -495,69 +523,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="32" column="92" lean-forward="false" selection-start-line="32" selection-start-column="92" selection-end-line="32" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -575,13 +589,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -614,13 +626,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classifier_Testing.py" />
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -723,43 +733,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextBlob_tutorial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classifier_Testing.py" />
-    <entry file="file://$PROJECT_DIR$/Decison_Tree_Classifier.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DT_Testing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/pprint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextBlob_CSV_cleaner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search_results_text.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -768,22 +743,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search_results.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23154">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_results_text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vader_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blobber_Sent_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analyzer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Blobber_Sent_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CSV_cleaning.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="75">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BodySent_cleaner.py">
+    <entry file="file://$PROJECT_DIR$/Decison_Tree_Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DT_Testing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,51 +825,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Vader_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="49" column="10" lean-forward="true" selection-start-line="49" selection-start-column="10" selection-end-line="49" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NB_Testing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vader_Analyzer.py">
+    <entry file="file://$PROJECT_DIR$/TextBlob_CSV_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="43" column="64" lean-forward="true" selection-start-line="43" selection-start-column="64" selection-end-line="43" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_NBAnalyzer.py">
+    <entry file="file://$PROJECT_DIR$/TextBlob_tutorial.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="50" column="45" lean-forward="false" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="421">
+          <caret line="46" column="12" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Blobber_Sent_Analyzer.py">
+    <entry file="file://$PROJECT_DIR$/Blobber_NB_Analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="45" column="45" lean-forward="false" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Analysis.py">
+    <entry file="file://$PROJECT_DIR$/BodySent_cleaner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
